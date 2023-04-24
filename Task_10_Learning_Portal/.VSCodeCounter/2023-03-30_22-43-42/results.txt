@@ -1,0 +1,109 @@
+Date : 2023-03-30 22:43:42
+Directory : c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src
+Total : 57 files,  3634 codes, 194 comments, 522 blanks, all 4350 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         51 |      2,485 |         40 |        260 |      2,785 |
+| CSS        |          2 |      1,105 |        154 |        259 |      1,518 |
+| XML        |          4 |         44 |          0 |          3 |         47 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                            | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                               |         57 |      3,634 |        194 |        522 |      4,350 |
+| . (Files)                                                                                                                       |          8 |      1,289 |        161 |        274 |      1,724 |
+| app                                                                                                                             |          1 |         13 |          0 |          2 |         15 |
+| assets                                                                                                                          |          3 |         43 |          0 |          2 |         45 |
+| assets\image                                                                                                                    |          3 |         43 |          0 |          2 |         45 |
+| components                                                                                                                      |         19 |      1,046 |         10 |        109 |      1,165 |
+| components\AdminAssignmentTable                                                                                                 |          2 |         74 |          0 |          7 |         81 |
+| components\AdminLoginForm                                                                                                       |          1 |        114 |          0 |          9 |        123 |
+| components\AdminVideoTable                                                                                                      |          2 |         85 |          0 |          9 |         94 |
+| components\Navbar                                                                                                               |          1 |         68 |          2 |          7 |         77 |
+| components\RoutesCheck                                                                                                          |          3 |         38 |          4 |         11 |         53 |
+| components\StudentLeaderBoard                                                                                                   |          3 |         94 |          3 |         14 |        111 |
+| components\StudentLoginForm                                                                                                     |          1 |        123 |          1 |          9 |        133 |
+| components\StudentQuiz                                                                                                          |          2 |         89 |          0 |         14 |        103 |
+| components\StudentRegistrationForm                                                                                              |          1 |        142 |          0 |          8 |        150 |
+| components\VideoPlayer                                                                                                          |          3 |        219 |          0 |         21 |        240 |
+| features                                                                                                                        |          7 |        347 |         12 |         38 |        397 |
+| features\api                                                                                                                    |          1 |          9 |          0 |          2 |         11 |
+| features\assignment                                                                                                             |          1 |        103 |          5 |          8 |        116 |
+| features\auth                                                                                                                   |          2 |         62 |          0 |         10 |         72 |
+| features\getVideos                                                                                                              |          2 |        157 |          7 |         14 |        178 |
+| features\leaderBoardMarks                                                                                                       |          1 |         16 |          0 |          4 |         20 |
+| hooks                                                                                                                           |          2 |         33 |          1 |          8 |         42 |
+| pages                                                                                                                           |         15 |        839 |          8 |         80 |        927 |
+| pages\Admin                                                                                                                     |          9 |        741 |          8 |         60 |        809 |
+| pages\Student                                                                                                                   |          6 |         98 |          0 |         20 |        118 |
+| utils                                                                                                                           |          2 |         24 |          2 |          9 |         35 |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                        | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\App.css                                                       | CSS        |          0 |          0 |          1 |          1 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\App.js                                                        | JavaScript |        137 |          0 |          4 |        141 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\App.test.js                                                   | JavaScript |         13 |          0 |          3 |         16 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\app\store.js                                                  | JavaScript |         13 |          0 |          2 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\assets\image\learningportal.svg                               | XML        |         11 |          0 |          1 |         12 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\assets\image\lws.svg                                          | XML        |         31 |          0 |          1 |         32 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\assets\image\search.svg                                       | XML        |          1 |          0 |          0 |          1 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\AdminAssignmentTable\AdminAssignmentTable.js       | JavaScript |         27 |          0 |          4 |         31 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\AdminAssignmentTable\AssignmentTableRow.js         | JavaScript |         47 |          0 |          3 |         50 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\AdminLoginForm\AdminLoginForm.js                   | JavaScript |        114 |          0 |          9 |        123 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\AdminVideoTable\AdminVideoTable.js                 | JavaScript |         23 |          0 |          4 |         27 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\AdminVideoTable\VideoTableRow.js                   | JavaScript |         62 |          0 |          5 |         67 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\Navbar\Navbar.js                                   | JavaScript |         68 |          2 |          7 |         77 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\RoutesCheck\AdminProtected.js                      | JavaScript |          9 |          2 |          4 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\RoutesCheck\ProtectedRoute.js                      | JavaScript |         13 |          2 |          3 |         18 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\RoutesCheck\PublicRoute.js                         | JavaScript |         16 |          0 |          4 |         20 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentLeaderBoard\OthersRank.js                   | JavaScript |         49 |          3 |          7 |         59 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentLeaderBoard\OwnRank.js                      | JavaScript |         31 |          0 |          4 |         35 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentLeaderBoard\UserTableRow.js                 | JavaScript |         14 |          0 |          3 |         17 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentLoginForm\StudentLoginForm.js               | JavaScript |        123 |          1 |          9 |        133 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentQuiz\QuizLayout.js                          | JavaScript |         21 |          0 |          4 |         25 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentQuiz\Quizzes.js                             | JavaScript |         68 |          0 |         10 |         78 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\StudentRegistrationForm\StudentRegistrationForm.js | JavaScript |        142 |          0 |          8 |        150 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\VideoPlayer\VideoItem.js                           | JavaScript |         47 |          0 |          5 |         52 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\VideoPlayer\VideoPlayer.js                         | JavaScript |        154 |          0 |         13 |        167 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\components\VideoPlayer\VideoPlayerSidebar.js                  | JavaScript |         18 |          0 |          3 |         21 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\api\apiSlice.js                                      | JavaScript |          9 |          0 |          2 |         11 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\assignment\assignmentApi.js                          | JavaScript |        103 |          5 |          8 |        116 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\auth\authApi.js                                      | JavaScript |         41 |          0 |          6 |         47 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\auth\authSlice.js                                    | JavaScript |         21 |          0 |          4 |         25 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\getVideos\getVideosApi.js                            | JavaScript |        142 |          7 |         10 |        159 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\getVideos\getVideosSlice.js                          | JavaScript |         15 |          0 |          4 |         19 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\features\leaderBoardMarks\leaderBoardMarksApi.js              | JavaScript |         16 |          0 |          4 |         20 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\hooks\useAuthCheck.js                                         | JavaScript |         23 |          0 |          4 |         27 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\hooks\useLoggedUser.js                                        | JavaScript |         10 |          1 |          4 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\index.css                                                     | CSS        |      1,105 |        154 |        258 |      1,517 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\index.js                                                      | JavaScript |         20 |          3 |          4 |         27 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\logo.svg                                                      | XML        |          1 |          0 |          1 |          2 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminAddAssignment.js                             | JavaScript |         92 |          0 |          5 |         97 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminAddVideo.js                                  | JavaScript |        137 |          8 |          9 |        154 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminAssignment.js                                | JavaScript |         44 |          0 |          4 |         48 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminDashboard.js                                 | JavaScript |         82 |          0 |         10 |         92 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminEditAssignment.js                            | JavaScript |        145 |          0 |          9 |        154 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminEditVideo.js                                 | JavaScript |        184 |          0 |         12 |        196 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminLogin.js                                     | JavaScript |         12 |          0 |          3 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminQuizzes.js                                   | JavaScript |          8 |          0 |          3 |         11 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Admin\AdminVideos.js                                    | JavaScript |         37 |          0 |          5 |         42 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\CourseAssignment.js                             | JavaScript |          8 |          0 |          3 |         11 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\CoursePlayer.js                                 | JavaScript |         34 |          0 |          5 |         39 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\CourseQuiz.js                                   | JavaScript |         14 |          0 |          3 |         17 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\LeaderBoard.js                                  | JavaScript |         18 |          0 |          3 |         21 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\StudentLogin.js                                 | JavaScript |         12 |          0 |          3 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\pages\Student\StudentRegistration.js                          | JavaScript |         12 |          0 |          3 |         15 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\reportWebVitals.js                                            | JavaScript |         12 |          0 |          2 |         14 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\setupTests.js                                                 | JavaScript |          1 |          4 |          1 |          6 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\utils\checkValidEmail.js                                      | JavaScript |          6 |          0 |          3 |          9 |
+| c:\PHero2\lws-redux\assignments\assignment-10\learning-portal\src\utils\marksCalculator.js                                      | JavaScript |         18 |          2 |          6 |         26 |
+| Total                                                                                                                           |            |      3,634 |        194 |        522 |      4,350 |
++---------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

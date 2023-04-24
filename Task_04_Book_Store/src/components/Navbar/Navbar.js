@@ -7,7 +7,7 @@ const Navbar = () => {
   const dispatch = useDispatch();
 
   const handleSearch = (e) => {
-    dispatch(searchBook(e.target.value))
+    dispatch(searchBook(e.target.value));
   };
 
   const handleForm = (e) => {
@@ -17,8 +17,15 @@ const Navbar = () => {
     <>
       <nav className="py-4 2xl:px-6">
         <div className="container flex items-center justify-between">
-          <img src={Logo} alt="" width="150px" className="object-contain" />
-
+          {/* <img src={Logo} alt="" width="150px" className="object-contain" /> */}
+          <div>
+            <h2
+              style={{ color: "rgb(88 80 236 / 0.9)" }}
+              className="text-xl font-bold"
+            >
+              BOOK STORE
+            </h2>
+          </div>
           <ul className="hidden md:flex items-center space-x-6">
             <li className="font-semibold cursor-pointer">Book Store</li>
             <li className="cursor-pointer">Wishlist</li>
